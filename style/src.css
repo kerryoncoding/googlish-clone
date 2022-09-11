@@ -1,7 +1,6 @@
 
 body {
     background-color: white;
-
 }
 
 nav {
@@ -9,18 +8,17 @@ nav {
 }
 nav a {
     color: rgba(0, 0, 0, .87);
-    font: 13px/27px Roboto, Arial, sans-serif;
-    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
     text-decoration: none;
     padding-left: 15px;
 }
 
 nav a:hover {
     color: rgba(0, 0, 0, .87);
-    font: 13px/27px Roboto, Arial, sans-serif;
-    line-height: 24px;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
     text-decoration: underline;
-    
 }
 
 #icon {
@@ -28,13 +26,19 @@ nav a:hover {
     font-size: 15px;
     line-height: 24px;
     text-decoration: none;
-    padding-left: 15px;
+    padding: 10px 12px;
+    margin-left: 15px;
 }
 
 #icon:hover {
-    color: rgba(0, 0, 0, .87);
-    background-color: #868080
-    font: 13px/27px Roboto, Arial, sans-serif;
-    line-height: 24px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+}
 
+.logo {
+    margin-top: 120px;
+}
+
+a.title:hover {
+    background-color: red;
 }
