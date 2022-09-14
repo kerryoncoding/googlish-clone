@@ -42,3 +42,42 @@ nav a:hover {
 a.title:hover {
     background-color: red;
 }
+
+.search-icon {
+    position: relative;
+    left: 10px;
+    top: 14px;
+    z-index: 10;
+    width: 32px;
+    color: #9AA0A6;
+}
+
+.mic-icon {
+    position: relative;
+    right: 5px;
+    top: 14px;
+    z-index: 10;
+    width: 32px;
+    color: #9AA0A6;
+}
+
+.input-form{
+    margin-top: 30px;
+    border: 1px solid #DFE1E5;
+    border-radius: 23px;
+    height: 46px;
+}
+
+
+.input-form:hover {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+
+.container {
+    max-width: 584px;
+}
+
+.form-control {
+    border: none;
+    outline: none;
+}
