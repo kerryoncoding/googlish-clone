@@ -21,6 +21,10 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.about {
+    margin-left: 10px;
+}
+
 #icon {
     color: rgba(0, 0, 0, .87);
     font-size: 15px;
@@ -36,7 +40,7 @@ nav a:hover {
 }
 
 .logo {
-    margin-top: 120px;
+    margin-top: 200px;
 }
 
 
@@ -78,4 +82,27 @@ nav a:hover {
 .form-control {
     border: none;
     outline: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.buttons {
+    text-align: center;
+}
+
+.search, .lucky {
+    background-color:#F8F9FA;
+    border-radius: 4px;
+    border: 2px solid #ffffff;
+    font-size: 14px;
+    margin: 16px 4px;
+    padding: 5px 18px;
+}
+        
+.search:hover,
+.lucky:hover {
+    border: 2px solid #DFE1E5;
+
 }
